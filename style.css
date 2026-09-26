@@ -1,0 +1,54 @@
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+    margin: 0;
+    padding: 20px;
+    color: #07570B;
+}
+
+/* Estilo do Cabeçalho, Conteúdo Principal e Rodapé */
+header, main, footer {
+    background-color: rgb(152, 227, 152);
+    color: #07570B;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 1. Ajuste de tamanho da imagem */
+img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* 2. Estilo do botão de link */
+.btn-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #07570B;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn-link:hover {
+    background-color: #053d07;
+    transform: scale(1.03);
+}
+
+/* Estilo do rodapé */
+footer {
+    font-size: 0.9em;
+    margin-top: 20px;
+}
